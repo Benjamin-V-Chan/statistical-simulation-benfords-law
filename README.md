@@ -1,7 +1,5 @@
 # statistical-simulation-benfords-law
 
-# Benford's Law Simulation and Analysis
-
 ## Project Overview
 Benford's Law is a statistical principle that predicts the frequency distribution of leading digits in many naturally occurring datasets. Unlike uniform distributions, where all digits are equally likely, Benford's Law states that smaller digits appear more frequently as the leading digit. This law is mathematically represented as:
 
@@ -30,7 +28,7 @@ This project simulates datasets from different distributions, analyzes their adh
 The project is organized as follows:
 
 ```
-benfords-law-simulation/
+project-root/
 ├── scripts/                    # Contains Python scripts for the simulation and analysis
 │   ├── 01_generate_dataset.py  # Generates synthetic datasets
 │   ├── 02_apply_benfords_law.py # Analyzes datasets and compares observed vs. theoretical distributions
